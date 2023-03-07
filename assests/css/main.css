@@ -1,0 +1,174 @@
+.wrapper {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #264f7d;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 1rem;
+}
+
+.title {
+}
+
+.title-heading {
+  font-size: 2rem;
+}
+
+.title-des {
+  font-size: 1rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header-search {
+}
+
+.search-input {
+  background-color: #333;
+  padding: 0.2rem;
+}
+
+.search-submit {
+  color: #fff;
+  padding: 0.2rem;
+  background-color: #333;
+}
+
+.header-navigation {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-navigation-item {
+  padding: 0.5rem;
+  color: #fff;
+  background-color: #3f7cc2;
+}
+
+.header-navigation-item:hover {
+  opacity: 0.7;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.container-left {
+  flex: 1;
+  max-width: 70%;
+  padding-right: 2rem;
+}
+
+.container-left-body {
+  display: flex;
+}
+
+.item-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-left-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.border {
+}
+
+.container-left-des {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.container-form {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+.container-form-item {
+  flex: 0 0 50%;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.container-form-textarea {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.container-form-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 0 0.5rem;
+  margin-top: 1rem;
+}
+
+.container-form-button > button {
+  padding: 0.5rem;
+}
+
+.container-right {
+  flex: 1;
+  max-width: 30%;
+  padding: 2rem 1rem;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.container-left-title {
+}
+
+.container-right-img {
+  width: 100%;
+}
+
+.container-right-des {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.read-more {
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: right;
+  color: #264f7d;
+  font-weight: 600;
+}
